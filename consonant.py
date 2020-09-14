@@ -1,3 +1,5 @@
+# the Consonant class defines an IPA symbol typically distinguished
+# by its place, manner, phonation, and airstream
 class Consonant:
 
     # constructor
