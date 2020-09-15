@@ -1,11 +1,21 @@
 [
     {
         "type": "consonant",
-        props: {
-            "symbol": "....",
-            "phonation": "asdf",
-            "place": "f",
-            "manner": ",ads",
-        },
+        "fields": {
+            "symbol": "p",
+            "phonation": "voiceless",
+            "airstream": "pulmonic",
+            "place": "bilabial",
+            "manner": "plosive"
+        }
     },
+    {
+        "type": "vowel",
+        "fields": {
+            "symbol": "i",
+            "height": "high",
+            "backness": "front",
+            "rounding": "unrounded"
+        }
+    }
 ]
