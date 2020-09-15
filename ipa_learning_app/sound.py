@@ -11,7 +11,9 @@ class Sound:
     # accessors
     def get_symbol(self):
         return self.symbol
+
     def get_phonation(self):
         return self.phonation
+
     def get_airstream(self):
         return self.airstream

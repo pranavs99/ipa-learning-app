@@ -1,16 +1,16 @@
-from ipa_sound import IPASound
+from ipa_learning_app.sound import Sound
 
 # the Consonant class defines an IPA symbol typically distinguished
 # by its place, manner, phonation, and airstream
-class Consonant(IPASound):
+class Consonant(Sound):
 
     # constructor
-    def __init__(self, symbol, place, manner, phonation, airstream):
+    def __init__(self, symbol, phonation, airstream, place, manner):
         # inheriting all fields and methods from the parent class IPASound
         super().__init__(
             symbol = symbol,
             phonation = phonation,
-            airstream = airstream
+            airstream = airstream,
         )
         # adding Consonant-specific fields
         self.place = place
@@ -19,5 +19,6 @@ class Consonant(IPASound):
     # Consonant-specific accessors
     def get_place(self):
         return self.place
+
     def get_manner(self):
         return self.manner
