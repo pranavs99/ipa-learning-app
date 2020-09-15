@@ -1,5 +1,11 @@
+# importing test libraries
+import pytest
 import unittest
-from ipa_learning_app.ipa_sound import IPASound
+
+# importing IPASound class
+from ipa_learning_app import ipa_sound
+
+
 
 # testing the IPASound object
 class TestIPASoundClass(unittest.TestCase):
@@ -16,7 +22,7 @@ class TestIPASoundClass(unittest.TestCase):
 
     # testing with valid arguments
     def test_creation_with_valid_arguments(self):
-        s = IPASound(
+        s = ipa_sound.IPASound(
             symbol = self.valid_symbol,
             phonation = self.valid_phonation,
             airstream = self.valid_airstream
