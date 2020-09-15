@@ -1,0 +1,11 @@
+[
+    {
+        "type": "consonant",
+        props: {
+            "symbol": "....",
+            "phonation": "asdf",
+            "place": "f",
+            "manner": ",ads",
+        },
+    },
+]

@@ -2,6 +2,7 @@ import unittest
 
 from ipa_learning_app.consonant import Consonant
 
+
 class TestConsonantClass(unittest.TestCase):
     test_symbol = "p"
     test_phonation = "voiceless"
