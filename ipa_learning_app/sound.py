@@ -1,6 +1,6 @@
-# the IPASound class is a parent class for Vowel and Consonant because
+# the Sound class is a parent class for Vowel and Consonant because
 # both of these classes share a few fields and methods
-class IPASound:
+class Sound:
 
     # constructor
     def __init__(self, symbol, phonation, airstream):

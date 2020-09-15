@@ -1,14 +1,13 @@
 # importing test libraries
-import pytest
 import unittest
 
 # importing IPASound class
-from ipa_learning_app import ipa_sound
+from ipa_learning_app import ipa_sound.IPASound
 
 
 
 # testing the IPASound object
-class TestIPASoundClass(unittest.TestCase):
+class IPASoundTest(unittest.TestCase):
 
     # valid IPASound() arguments
     valid_symbol = 'p'
